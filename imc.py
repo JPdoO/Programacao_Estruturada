@@ -1,7 +1,9 @@
 peso = float(input("Digite o seu peso em Kg: "))
 altura = float(input("Digite a sua altura em m: "))
+
 imc = (peso / (altura ** 2))
-print(imc)
+print("O seu imc é ", imc)
+
 if imc >= 40:    
     print("Obesidade grave.")
 elif imc >= 30: 
