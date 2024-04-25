@@ -1,4 +1,5 @@
 num = float(input("Digite o número aqui: "))
+
 if num % 2 == 0 and num > 0:    
     print("Este número é positivo e par.")
 elif num > 0 and num % 3 == 0:  
