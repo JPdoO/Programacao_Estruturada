@@ -1,3 +1,5 @@
+#Eu sei que isso não faz parte do exercício. Eu só tava feliz de ter conseguido fazer esse código e queria salvá-lo em algum lugar.
+
 num = int(input("Digite o número aqui:"))
 divisores = 0
 
