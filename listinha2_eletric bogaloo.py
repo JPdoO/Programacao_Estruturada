@@ -1,6 +1,7 @@
 comidas = ["leite", "couve", "tomate", "garfo", "faca", "refrigerante"]
 bebidas = ["uva", "colher", "vinho", "cerveja", "banana"]
 talheres = ["arroz", "concha", "whisky", "vodka", "feijão", "colher de chá"]
+eletronicos = ["computador", "microondas", "geladeira", "smartphone", "videogame"]
 
 comidas.pop (0)
 comidas.pop (2)
@@ -23,3 +24,4 @@ talheres.extend (["garfo", "faca", "colher"])
 print ("Comidas: ", comidas)
 print ("Bebidas: ", bebidas)
 print ("Talheres: ", talheres)
+print ("Eletrônicos: ", eletronicos)
