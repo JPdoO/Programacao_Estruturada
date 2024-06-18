@@ -6,7 +6,7 @@ penultimo = 0
 lista = [0, 1]
 
 
-for contador in range (0, num): 
+for contador in range (2, num): 
     termo = ultimo + penultimo 
     lista.append (termo)
     penultimo = ultimo 
