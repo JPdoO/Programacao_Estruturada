@@ -1,27 +1,33 @@
-comidas = ["leite", "couve", "tomate", "garfo", "faca", "refrigerante"]
-bebidas = ["uva", "colher", "vinho", "cerveja", "banana"]
-talheres = ["arroz", "concha", "whisky", "vodka", "feijão", "colher de chá"]
-eletronicos = ["computador", "microondas", "geladeira", "smartphone", "videogame"]
+comidas = ['leite', 'couve','computador', 'tomate','garfo','faca','tablet','refrigerante']
+bebidas = ['uva', 'colher','TV','vinho','cerveja','celular','banana']
+talheres = ['arroz','iPhone', 'concha','whisky','vodka','feijão','colher de chá']
+eletronicos = []
 
-comidas.pop (0)
-comidas.pop (2)
-comidas.pop (2)
-comidas.pop (2)
+comidas.remove ("leite")
+comidas.remove ("computador")
+comidas.remove ("garfo")
+comidas.remove ("faca")
+comidas.remove ("tablet")
+comidas.remove ("refrigerante")
 
-bebidas.pop (0)
-bebidas.pop (0)
-bebidas.pop (2)
+bebidas.remove ("uva")
+bebidas.remove ("colher")
+bebidas.remove ("TV")
+bebidas.remove ("celular")
+bebidas.remove ("banana")
 
-talheres.pop (0)
-talheres.pop (1)
-talheres.pop (1)
-talheres.pop (1)
+talheres.remove ("arroz")
+talheres.remove ("iPhone")
+talheres.remove ("whisky")
+talheres.remove ("vodka")
+talheres.remove ("feijão")
 
 comidas.extend (["uva", "banana", "arroz", "feijão"])
 bebidas.extend (["leite", "refrigerante", "whisky", "vodka"])
 talheres.extend (["garfo", "faca", "colher"])
+eletronicos.extend (["computador", "tablet", "TV", "celular", "iPhone"])
 
-print ("Comidas: ", comidas)
-print ("Bebidas: ", bebidas)
-print ("Talheres: ", talheres)
-print ("Eletrônicos: ", eletronicos)
+print ("Comidas:", comidas)
+print ("Bebidas:", bebidas)
+print ("Talheres:", talheres)
+print ("Eletrônicos:", eletronicos)
